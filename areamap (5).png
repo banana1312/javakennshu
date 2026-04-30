@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+	<title>chap2.s6.q2</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../../../../docs/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+	<script src="../../../../docs/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container" style="max-width:800px;">
+		<div class="row">
+			<div class="col-12">
+				<h2>Java基礎 実習問題</h2>
+				<h5>【実践問題】 chap2.s6.q2</h5>
+				<br>
+				<h5>■ 実習概要</h5>
+				<pre style="white-space:pre-wrap; border: 0;">
+合計点と平均点を求めるプログラムを作成します。
+
+</pre>
+				<h5>■ 実習内容</h5>
+				<pre style="white-space:pre-wrap; border: 0;">
+10人分の点数が昇順に入力済みの配列の要素を集計し、合計点、平均点を表示します。
+また、上位5人の点数を表示します。
+
+</pre>
+				<h5>■ 実践問題のポイント</h5>
+				<pre style="white-space:pre-wrap; border: 0;">
+配列、繰り返し処理を組み合わせて利用し、領域図、フローチャートをもとに、アルゴリズムを実装します。
+
+</pre>
+				<h5>■ 実習データ</h5>
+				<pre style="white-space:pre-wrap; border: 0;">
+CalculateTotal.java (一部作成済み)
+
+</pre>
+				<h5>■ 実習手順</h5>
+				<pre style="white-space:pre-wrap; border: 0;">
+CalculateTotalクラス
+1.領域図、フローチャートをもとに、実行イメージのプログラムを作成する。
+
+</pre>
+				<h5>■ 実行イメージ</h5>
+				<pre style="white-space:pre-wrap; border: 0;">
+合計点：608
+平均点：60
+test(9)：95
+test(8)：82
+test(7)：79
+test(6)：75
+test(5)：71
+
+</pre>
+				<h5>■ 領域図</h5>
+				<div class="my-3">
+					<img class="my-3 img-fluid" src="docs/areamap.png">
+				</div>
+				<div style="page-break-after: always;"></div>
+
+				<h5>■ フローチャート</h5>
+				<div class="my-3">
+					<img class="my-3 img-fluid" src="docs/flowchart.png">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+/**
+ * All Rights Reserved, Copyright(c) Fujitsu Learning Media Limited
+ *
+ * FindMaxMin.java
+ *
+ */
+package chap2.s6.q1.advanced;
+
+public class FindMaxMin {
+
+	public static void main(String[] args) {
+
+		// 1.要素数10のint型の配列を宣言し、初期化する。
+
+
+		// 2.最大値の変数を宣言し、配列の先頭要素で初期化する。
+
+
+		// 3.最小値の変数を宣言し、配列の先頭要素で初期化する。
+
+
+		// 4.配列の要素の中から最大値と最小値を求める。
+
+
+
+
+
+
+
+
+		// 5.最大値と最小値の変数の値を表示する。
+
+
+	}
+}
