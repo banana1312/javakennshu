@@ -4,7 +4,7 @@
  * Item.java
  *
  */
-package chap5.s1.q5.standard;
+package chap5.s1.q6.advanced;
 
 // 商品クラス
 public class Item {
@@ -13,8 +13,8 @@ public class Item {
 	private String name;		// 商品名
 	private int   price;		// 商品単価
 
+	// コンストラクタ
 	public Item(String code, String name, int price) {
-		super();
 		this.code = code;
 		this.name = name;
 		this.price = price;
@@ -44,10 +44,10 @@ public class Item {
 		return price;
 	}
 
-	// 商品の情報を表示するshowInfot()メソッド
+	// 商品の情報を表示するshowInfo()メソッドを定義
 	public void showInfo() {
-		System.out.println("商品コード: " + code);
-		System.out.println("商品名    : " + name);
-		System.out.println("商品単価  : " + price);
+		System.out.println("　商品コード	:" + code);
+		System.out.println("　商品名   		:" + name);
+		System.out.println("　商品単価   	:" + price);
 	}
 }
